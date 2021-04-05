@@ -4,6 +4,7 @@ import React from 'react'
 import './Home.css'
 import { Link } from 'react-router-dom';
 import Blocks from '../Blocks'
+import SendFleek from '../sendFleek';
 
 function Home() {
     return (
@@ -20,7 +21,7 @@ function Home() {
                         <img className='imagen_prop' src={'/VXN.gif'} alt='VXN Logo'/>
                         <form method='GET' role='search'>
                             <input className='search_bar' type='text' placeholder='Search...'/>
-
+                            <SendFleek/>
                         </form>
                         <h1 className='font'>Welcome to Voxen Network.</h1>
                         <h2 className='font'>The Republic of 3D Models.</h2>
