@@ -9,7 +9,7 @@ import SendFleek from '../sendFleek';
 function Home() {
     return (
         <>
-            <div>
+            <div className='Body'>
                 <header>
                     <nav>
                         <a className='nav' href='#'>Start</a>

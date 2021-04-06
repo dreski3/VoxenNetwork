@@ -7,6 +7,39 @@ h1 {
   text-align: center;
 }
 
+.Models {
+  max-width: 95%;
+  padding: 10rem 8rem;
+  border-style: solid;
+  border-width: 0.27rem;
+  border-color: #fff;
+  border-radius: 1.5rem;
+  background-color: #000;
+  font-family: Montserrat, sans-serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.description {
+  max-width: 95%;
+  border-style: solid;
+  border-width: 0.27rem;
+  border-color: #aaa;
+  border-radius: 1.5rem;
+  background-color: #696d70;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 5rem;
+  text-align: start;
+  padding-left: 1rem;
+}
+
 .blocks__container {
   display: flex;
   flex-flow: column;
@@ -36,6 +69,9 @@ h1 {
   display: flex;
   flex-flow: column;
   width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
@@ -47,6 +83,9 @@ h1 {
 .blocks__item__pic-wrap {
   position: relative;
   width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
   padding-top: 67%;
   overflow: hidden;
 }
@@ -60,13 +99,17 @@ h1 {
   content: attr(data-category);
   position: absolute;
   bottom: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
   margin-left: 10px;
   padding: 6px 8px;
   max-width: calc((100%) - 60px);
   font-size: 12px;
   font-weight: 700;
   color: #fff;
-  background-color: #1f98f4;
+  background-color: #1f98f400;
   box-sizing: border-box;
 }
 
@@ -91,6 +134,12 @@ h1 {
 
 .blocks__item__info {
   padding: 20px 30px 30px;
+  background-color: #696d70;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
 }
 
 .blocks__item__text {
