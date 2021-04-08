@@ -18,8 +18,8 @@ function Home() {
 
                 <div>
                     <div className='box_1'>
-                        <img className='imagen_prop' src={'/VXN.gif'} alt='VXN Logo'/>
-                        <form method='GET' role='search'>
+                        {/* <img className='imagen_prop' src={'/VXN.gif'} alt='VXN Logo'/> */}
+                        <iframe id="b49a70e9-76d3-4ce3-b7d4-d5e7ebdea7c7" src="https://www.vectary.com/viewer/v1/?model=b49a70e9-76d3-4ce3-b7d4-d5e7ebdea7c7&env=studio3&turntable=15" frameborder="0" width="100%" height="480"></iframe>                        <form method='GET' role='search'>
                             <input className='search_bar' type='text' placeholder='Search...'/>
                         </form>
                         <SendFleek/>
